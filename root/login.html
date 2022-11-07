@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="./styles/default.css">
+  <link rel="stylesheet" href="./styles/login/login.css">
+</head>
+
+<body>
+  <header>
+    <h1>Login</h1>
+  </header>
+  <nav>
+    <span><a href="./index.html">Home</a></span>
+    |
+    <span><a href="./pages/about.html">About</a></span>
+    |
+    <span><a href="./pages/see_CSS.html">Lihat CSS</a></span>
+    <span>
+      <form action="./search.html" method="get" id="s">
+        <input type="search" name="s" placeholder="search..." required>
+        <button type="submit">Search</button>
+      </form>
+    </span>
+    |
+    <span><a href="./login.html">Login</a></span>
+  </nav>
+  <main>
+    <form action="./pages/dashboard.html" method="post" id="login">
+      <fieldset>
+        <legend>Login</legend>
+        <table>
+          <tr>
+            <td colspan="3"><img src="./images/user.svg" alt="user"></td>
+          </tr>
+          <tr>
+            <td><label for="username">Username</label></td>
+            <td>:</td>
+            <td><input type="text" name="username" id="username" placeholder="haikal"></td>
+          </tr>
+          <tr>
+            <td><label for="password">Password</label></td>
+            <td>:</td>
+            <td><input type="password" name="password" id="password" placeholder="1121102019"></td>
+          </tr>
+          <tr>
+            <td colspan="3">
+              <button type="submit">Login</button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </main>
+</body>
+
+</html>

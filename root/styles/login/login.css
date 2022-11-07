@@ -1,0 +1,45 @@
+form#login {
+  display: flex;
+  margin: 1rem auto auto;
+  width: min-content;
+}
+form#login fieldset {
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+form#login fieldset legend {
+  padding-inline-start: 0.25rem;
+  padding-inline-end: 0.25rem;
+  font-weight: bold;
+}
+form#login fieldset button[type=submit] {
+  font-size: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.5019607843);
+  border-radius: 0.33rem;
+  background-color: transparent;
+  padding: 0.33rem;
+}
+form#login fieldset button[type=submit]:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+form#login table {
+  border-collapse: collapse;
+}
+form#login table tr td {
+  padding: 0.25rem;
+  text-align: right;
+}
+form#login table tr:first-child td, form#login table tr:last-child td {
+  text-align: center;
+}
+form#login img {
+  height: 6rem;
+  filter: brightness(0%);
+}
+form#login input {
+  font-size: 0.875rem;
+}
+
+/*# sourceMappingURL=login.css.map */

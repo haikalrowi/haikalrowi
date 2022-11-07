@@ -1,0 +1,69 @@
+* {
+  user-select: none;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16pt;
+}
+html body header {
+  margin-left: 1rem;
+}
+html body nav {
+  display: flex;
+  align-items: center;
+  gap: 0.67rem;
+  padding: 0.33rem;
+  border: 2px solid black;
+  border-left: none;
+  border-right: none;
+}
+html body nav span:first-child {
+  margin-left: 0.67rem;
+}
+html body nav a {
+  text-decoration: none;
+  color: black;
+}
+html body nav a:hover {
+  text-decoration: underline;
+}
+html body nav span:nth-child(0n+4) {
+  margin-left: auto;
+}
+html body nav form {
+  display: flex;
+  gap: 0.33rem;
+}
+html body nav form input[type=search] {
+  width: 100%;
+  max-width: 12rem;
+  min-width: 4rem;
+  font-size: inherit;
+  border: 1px solid rgba(0, 0, 0, 0.5019607843);
+  border-radius: 0.33rem;
+  padding: 0.25rem;
+}
+html body nav form button[type=submit] {
+  border: 1px solid rgba(0, 0, 0, 0.5019607843);
+  border-radius: 0.33rem;
+  background-color: transparent;
+}
+html body nav form button[type=submit]:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+html body main {
+  width: 75vw;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+html body main h2 {
+  text-align: center;
+}
+html body main p {
+  text-indent: 1.5rem;
+}
+
+/*# sourceMappingURL=default.css.map */
