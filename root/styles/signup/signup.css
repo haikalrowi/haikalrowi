@@ -1,0 +1,45 @@
+form#signup {
+  display: flex;
+  margin: 1rem auto auto;
+  width: min-content;
+}
+form#signup fieldset {
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+form#signup fieldset legend {
+  padding-inline-start: 0.25rem;
+  padding-inline-end: 0.25rem;
+  font-weight: bold;
+}
+form#signup fieldset button[type=submit] {
+  font-size: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.5019607843);
+  border-radius: 0.33rem;
+  background-color: transparent;
+  padding: 0.33rem;
+}
+form#signup fieldset button[type=submit]:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+form#signup table {
+  border-collapse: collapse;
+}
+form#signup table tr td {
+  padding: 0.25rem;
+  text-align: right;
+}
+form#signup table tr:first-child td, form#signup table tr:last-child td {
+  text-align: center;
+}
+form#signup img {
+  height: 6rem;
+  filter: brightness(0%);
+}
+form#signup input {
+  font-size: 0.875rem;
+}
+
+/*# sourceMappingURL=signup.css.map */
