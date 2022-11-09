@@ -101,10 +101,10 @@ http.createServer((req, res) => {
           username: formData.get('username'),
           password: formData.get('password')
         })
+        res.end(Buffer.from('PG1ldGEgaHR0cC1lcXVpdj0icmVmcmVzaCIgY29udGVudD0iMTsgdXJsPS8iPg==',
+          'base64')
+          .toString())
       })
-      res.end(Buffer.from('PG1ldGEgaHR0cC1lcXVpdj0icmVmcmVzaCIgY29udGVudD0iMTsgdXJsPS8iPg==',
-        'base64')
-        .toString())
     }
   }
 }).listen(PORT)
