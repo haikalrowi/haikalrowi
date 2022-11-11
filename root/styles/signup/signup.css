@@ -1,7 +1,7 @@
 form#signup {
   display: flex;
   margin: 1rem auto auto;
-  width: min-content;
+  width: max-content;
 }
 form#signup fieldset {
   border: 2px solid black;
@@ -29,6 +29,8 @@ form#signup table {
 }
 form#signup table tr td {
   padding: 0.25rem;
+}
+form#signup table tr td:first-child {
   text-align: right;
 }
 form#signup table tr:first-child td, form#signup table tr:last-child td {
@@ -37,6 +39,9 @@ form#signup table tr:first-child td, form#signup table tr:last-child td {
 form#signup img {
   height: 6rem;
   filter: brightness(0%);
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 50%;
 }
 form#signup input {
   font-size: 0.875rem;

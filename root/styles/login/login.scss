@@ -1,58 +1,61 @@
 form#login {
-    display: flex;
-    margin: 1rem auto auto;
-    width: min-content;
+  display: flex;
+  margin: 1rem auto auto;
+  width: max-content;
 
-    fieldset {
-        border: 2px solid black;
-        border-radius: 1rem;
+  fieldset {
+    border: 2px solid black;
+    border-radius: 1rem;
 
-        legend {
-            padding-inline-start: 0.25rem;
-            padding-inline-end: 0.25rem;
-            font-weight: bold;
+    legend {
+      padding-inline-start: 0.25rem;
+      padding-inline-end: 0.25rem;
+      font-weight: bold;
+    }
+
+    button[type="submit"] {
+      font-size: 0.75rem;
+      border: 1px solid #00000080;
+      border-radius: 0.33rem;
+      background-color: transparent;
+      padding: 0.33rem;
+
+      &:hover {
+        color: white;
+        background-color: black;
+        cursor: pointer;
+      }
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+
+    tr {
+      td {
+        padding: 0.25rem;
+
+        &:first-child {
+          text-align: right;
         }
+      }
 
-        button[type="submit"] {
-            font-size: 0.75rem;
-            border: 1px solid #00000080;
-            border-radius: 0.33rem;
-            background-color: transparent;
-            padding: 0.33rem;
-
-            &:hover {
-                color: white;
-                background-color: black;
-                cursor: pointer;
-            }
+      &:first-child,
+      &:last-child {
+        td {
+          text-align: center;
         }
+      }
     }
+  }
 
-    table {
-        border-collapse: collapse;
+  img {
+    height: 6rem;
+    filter: brightness(0%);
+  }
 
-        tr {
-            td {
-                padding: 0.25rem;
-                text-align: right;
-            }
-
-            &:first-child,
-            &:last-child {
-                td {
-                    text-align: center;
-                }
-            }
-        }
-    }
-
-    img {
-        height: 6rem;
-        filter: brightness(0%);
-    }
-
-    input {
-        font-size: 0.875rem;
-        // border-radius: 0.1rem;
-    }
+  input {
+    font-size: 0.875rem;
+    // border-radius: 0.1rem;
+  }
 }

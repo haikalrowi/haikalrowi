@@ -1,82 +1,82 @@
 * {
-    user-select: none;
+  user-select: none;
 }
 
 html {
-    font-family: sans-serif;
-    font-size: 16pt;
+  font-family: sans-serif;
+  font-size: 16pt;
 
-    body {
-        header {
-            margin-left: 1rem;
-        }
-
-        nav {
-            display: flex;
-            align-items: center;
-            gap: 0.67rem;
-            padding: 0.33rem;
-            border: 2px solid black;
-            border-left: none;
-            border-right: none;
-
-            span:first-child {
-                margin-left: 0.67rem;
-            }
-
-            a {
-                text-decoration: none;
-                color: black;
-
-                &:hover {
-                    text-decoration: underline;
-                }
-            }
-
-            span:nth-child(0n+4) {
-                margin-left: auto;
-            }
-
-            form {
-                display: flex;
-                gap: 0.33rem;
-
-                input[type="search"] {
-                    width: 100%;
-                    max-width: 12rem;
-                    min-width: 4rem;
-                    font-size: inherit;
-                    border: 1px solid #00000080;
-                    border-radius: 0.33rem;
-                    padding: 0.25rem;
-                }
-
-                button[type="submit"] {
-                    border: 1px solid #00000080;
-                    border-radius: 0.33rem;
-                    background-color: transparent;
-
-                    &:hover {
-                        color: white;
-                        background-color: black;
-                        cursor: pointer;
-                    }
-                }
-            }
-        }
-
-        main {
-            width: 75vw;
-            margin-top: 1rem;
-            margin-left: 1rem;
-
-            h2 {
-                text-align: center;
-            }
-
-            p {
-                text-indent: 1.5rem;
-            }
-        }
+  body {
+    header {
+      margin-left: 1rem;
     }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 0.67rem;
+      padding: 0.33rem;
+      border: 2px solid black;
+      border-left: none;
+      border-right: none;
+
+      span:first-child {
+        margin-left: 0.67rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      span:nth-child(0n+4) {
+        margin-left: auto;
+      }
+
+      form {
+        display: flex;
+        gap: 0.33rem;
+
+        input[type="search"] {
+          width: 100%;
+          max-width: 12rem;
+          min-width: 4rem;
+          font-size: inherit;
+          border: 1px solid #00000080;
+          border-radius: 0.33rem;
+          padding: 0.25rem;
+        }
+
+        button[type="submit"] {
+          border: 1px solid #00000080;
+          border-radius: 0.33rem;
+          background-color: transparent;
+
+          &:hover {
+            color: white;
+            background-color: black;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    main {
+      width: 75vw;
+      margin-top: 1rem;
+      margin-left: 1rem;
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        text-indent: 1.5rem;
+      }
+    }
+  }
 }

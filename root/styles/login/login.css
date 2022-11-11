@@ -1,7 +1,7 @@
 form#login {
   display: flex;
   margin: 1rem auto auto;
-  width: min-content;
+  width: max-content;
 }
 form#login fieldset {
   border: 2px solid black;
@@ -29,6 +29,8 @@ form#login table {
 }
 form#login table tr td {
   padding: 0.25rem;
+}
+form#login table tr td:first-child {
   text-align: right;
 }
 form#login table tr:first-child td, form#login table tr:last-child td {
