@@ -7,11 +7,10 @@ const PORT = process.env.PORT || 5000
 
 
 const mimeTypes = {
-  '.py': 'text/x-python',
   '.html': 'text/html',
-  '.jpg': 'image/jpeg',
   '.png': 'image/png',
   '.svg': 'image/svg+xml',
+  '.pdf': 'application/pdf',
   '.css': 'text/css',
   '.map': 'None',
   '.scss': 'None',
